@@ -22,7 +22,12 @@
                 <div class="logo-nav">
                     Héctor David Jácome López
                 </div>
-                <nav class="menu-nav">
+                <div class="hamburger" id="hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <nav class="menu-nav" id="menu">
                     <a href="portfolio.html"><b>Portfolio</b></a>
                     <a href="about.html"><b>Sobre mí</b></a>
                     <a href="services.html"><b>Servicios</b></a>
@@ -240,7 +245,8 @@
         
         <script src="accordion.js" async defer></script>
         <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script>
+        <script src="menu.js" async defer></script>
+        <script>
   // Inicializa EmailJS con tu user_id
   emailjs.init("7yue2BpuP1VdTmzGi"); 
 
@@ -276,4 +282,5 @@
 </script>
 
     </body>
+
 </html>
