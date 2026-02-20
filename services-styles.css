@@ -12,6 +12,24 @@ body {
 }
 
 /* ======================
+   HAMBURGER
+====================== */
+.hamburger {
+  display: none; /* se muestra solo en móvil */
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  transition: all 0.3s ease;
+}
+
+/* ======================
    HEADER
 ====================== */
 .header-nav {
@@ -572,15 +590,43 @@ section {
 @media (max-width: 768px) {
 
   /* HEADER */
+  .hamburger {
+    display: flex; /* mostrar hamburguesa */
+  }
+
   .header-contenido {
-    flex-direction: column;
-    gap: 15px;
+    position: relative;
+    justify-content: space-between;
   }
 
   .menu-nav {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 60px; /* ajusta según tu header */
+    left: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    transform: translateY(-120%); /* oculto inicialmente */
+    transition: transform 0.4s ease;
+    z-index: 1000;
+  }
+
+  .menu-nav.active {
+    transform: translateY(0); /* visible al hacer click */
+  }
+  .menu-nav a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #111;
+    text-decoration: none;
+  }
+
+  .menu-nav a:hover {
+    color: #ff3b3b;
   }
 
   /* CTA */
@@ -669,3 +715,4 @@ section {
     margin: 5px 0;
   }
 }
+
