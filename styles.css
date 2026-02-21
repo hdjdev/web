@@ -573,6 +573,7 @@ body {
   .services { padding: 120px 40px 0; }
   .services-grid { grid-template-columns: 1fr; gap: 60px; }
 
+   .about{padding: 120px 60px 80px;}
   .about-container { grid-template-columns: 1fr; gap: 60px 0; }
   .about-image img { height: 350px; }
 
@@ -665,4 +666,5 @@ body {
   /* Footer */
   .footer a { display: block; margin: 5px 0; }
 }
+
 
