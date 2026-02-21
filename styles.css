@@ -642,22 +642,23 @@ body {
   .service-detail p { font-size: 14px; }
 
   /* About */
-  .about { width: 100%; padding: 80px 40px; }
+   .about{padding: 100px 40px 0;}
   .about-container { gap: 4px; }
   .about-image img { height: 250px; }
 
   /* Works */
+   .works{padding: 100px 40px 0;}
   .works-grid { gap: 40px; }
   .tfg-img { max-width: 300px; }
 
   /* CTA & END */
-  .cta, .end { padding: 80px 40px; }
+  .cta, .end { padding: 100px 40px 0; }
   .cta-detail h2, .end-detail h2 { font-size: 28px; }
   .cta-detail p, .end-detail p { font-size: 15px; }
   .view-cta-1, .view-cta-2, .view-end-1 { width: 100%; margin: 10px 0; }
 
   /* Experience */
-  .experience-section { padding: 80px 40px; }
+  .experience-section { padding: 100px 40px; }
   .columns { grid-template-columns: 1fr; gap: 40px; }
 
   /* Redes */
@@ -666,5 +667,6 @@ body {
   /* Footer */
   .footer a { display: block; margin: 5px 0; }
 }
+
 
 
