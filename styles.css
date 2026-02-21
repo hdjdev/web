@@ -657,16 +657,17 @@ body {
   .cta-detail h2, .end-detail h2 { font-size: 28px; }
   .cta-detail p, .end-detail p { font-size: 15px; }
   .view-cta-1, .view-cta-2, .view-end-1 { width: 100%; margin: 10px 0; }
-
-  /* Experience */
-  .experience-section { padding: 100px 40px; }
-  .columns { grid-template-columns: 1fr; gap: 40px; }
-
+   
+   /* EXPERIENCE */
+  .experience-section {
+    padding: 100px 25px;
+  }
   /* Redes */
   .redes, .redes-end { gap: 25px; padding-top: 60px; }
 
   /* Footer */
   .footer a { display: block; margin: 5px 0; }
 }
+
 
 
