@@ -643,9 +643,23 @@ body {
   .service-detail p { font-size: 14px; }
 
   /* About */
-   .about{padding: 100px 0 0;}
-  .about-container { padding: 0 20px; }
-  .about-image img { display: flex; justify-content:center; }
+   .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
+  .about-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .about-image img {
+    margin: 0 auto;
+  }
 
   /* Works */
    .works{padding: 100px 40px 0;}
@@ -668,6 +682,7 @@ body {
   /* Footer */
   .footer a { display: block; margin: 5px 0; }
 }
+
 
 
 
