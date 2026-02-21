@@ -690,6 +690,12 @@ section {
   }
 
   /* REDESIGN / DEVELOPMENT */
+.redesign {
+    padding: 100px 40px 0;
+  }.development {
+    padding: 100px 40px 0;
+  }
+  
   .redesign-grid,
   .development-grid {
     grid-template-columns: 1fr;
@@ -726,5 +732,6 @@ section {
     margin: 5px 0;
   }
 }
+
 
 
