@@ -276,7 +276,7 @@ body {
   color: #555;
 }
 
-.view-tfg {
+.text-view-tfg {
   display: inline-block;
   width: 276px;
   margin-top: 30px;
@@ -284,20 +284,18 @@ body {
   border: 2px solid #1f4cff;
   color: #1f4cff;
   text-decoration: none;
-  transition: width 0.3s ease;
 }
 
-.view-tfg .text-view-tfg {
+.text-view-tfg {
   display: inline-block;
-  transition: transform 0.3s ease;
+  background-color: whitesmoke;
+transition: all 0.5s ease;
 }
 
-.view-tfg:hover {
-  width: 310px;
-}
+.text-view-tfg:hover {
+    background-color: #1f4cff;
+    color: whitesmoke ;
 
-.view-tfg:hover .text-view-tfg {
-  transform: translateX(20px);
 }
 
 .tfg-img {
@@ -689,6 +687,7 @@ body {
   /* Footer */
   .footer a { display: block; margin: 5px 0; }
 }
+
 
 
 
