@@ -576,8 +576,9 @@ body {
   .about-container { grid-template-columns: 1fr; gap: 60px 0; }
   .about-image img { height: 350px; }
 
+   .works{ padding: 120px 40px 0;}
   .works-grid { grid-template-columns: 1fr; gap: 60px; }
-  .tfg-img { max-width: 400px; height: auto; }
+  .tfg-img { max-width: 350px; height: auto; }
 
   .experience-section { padding: 120px 40px; }
   .columns { grid-template-columns: 1fr; gap: 60px; }
@@ -664,3 +665,4 @@ body {
   /* Footer */
   .footer a { display: block; margin: 5px 0; }
 }
+
