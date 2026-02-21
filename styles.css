@@ -270,6 +270,12 @@ body {
   margin: 24px 0 16px;
 }
 
+.work-detail p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #555;
+}
+
 .view-tfg {
   display: inline-block;
   width: 276px;
@@ -683,6 +689,7 @@ body {
   /* Footer */
   .footer a { display: block; margin: 5px 0; }
 }
+
 
 
 
