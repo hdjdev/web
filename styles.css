@@ -643,6 +643,7 @@ body {
   .service-detail p { font-size: 14px; }
 
   /* About */
+     .about { padding: 100px 40px 0; }
    .about-container {
     display: flex;
     flex-direction: column;
@@ -682,6 +683,7 @@ body {
   /* Footer */
   .footer a { display: block; margin: 5px 0; }
 }
+
 
 
 
