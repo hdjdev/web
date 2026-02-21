@@ -547,6 +547,10 @@ section {
   }
 
   /* PACKAGE */
+  .package {
+    padding: 100px 40px 0;
+  }
+  
   .package-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
@@ -557,6 +561,10 @@ section {
   }
 
   /* REDESIGN / DEVELOPMENT */
+  .redesing, .development{
+    padding: 100px 40px 0;
+  }
+  
   .redesign-grid,
   .development-grid {
     grid-template-columns: 1fr;
@@ -581,6 +589,9 @@ section {
 
   .contact-form form {
     padding: 1.5rem;
+  }
+  .copy{
+    padding-bottom: 30px;
   }
 }
 
@@ -631,12 +642,12 @@ section {
 
   /* CTA */
   .cta {
-    padding: 120px 25px;
+    padding: 100px 40px 0;
     text-align: center;
   }
 
   .cta-detail h2 {
-    font-size: 26px;
+    font-size: 32px;
   }
 
   .cta-detail p {
@@ -651,7 +662,7 @@ section {
 
   /* SERVICES */
   .services {
-    padding: 80px 25px 0;
+    padding: 100px 40px 0;
   }
 
   .services-label {
@@ -698,7 +709,7 @@ section {
 
   /* FORMULARIO */
   .img-border {
-    padding: 2.5rem 15px 2rem;
+    padding: 100px 40px 0;
   }
 
   .contact-form form {
@@ -715,4 +726,5 @@ section {
     margin: 5px 0;
   }
 }
+
 
