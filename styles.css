@@ -525,6 +525,7 @@ transition: all 0.5s ease;
   transition: all 0.5s ease;
   text-decoration: none;
 }
+.redes-end a{border: 3px solid #232323;}
 
 .redes a:hover,
 .redes-end a:hover {
@@ -705,6 +706,7 @@ transition: all 0.5s ease;
   /* Footer */
   .footer a { display: block; margin: 5px 0; }
 }
+
 
 
 
