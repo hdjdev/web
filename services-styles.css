@@ -361,6 +361,26 @@ section {
   padding-top: 30px;
 }
 
+.redesign-item {
+  max-width: 500px;   /* mismo ancho máximo que querías */
+  width: 100%;        /* responsive */
+}
+
+.redesign-img {
+  padding-left: 50px;
+  width: 100%;        /* la imagen define el ancho */
+  height: auto;
+  display: block;
+}
+
+.redesign-text {
+  padding-left: 50px;
+  color: #555;
+  line-height: 1.7;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
 /* FORMULARIO */
 .img-border {
   margin-top: 100px;
@@ -736,6 +756,7 @@ section {
     margin: 5px 0;
   }
 }
+
 
 
 
