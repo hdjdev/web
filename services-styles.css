@@ -642,12 +642,12 @@ section {
 
   /* CTA */
   .cta {
-    padding: 100px 40px 0;
+    padding: 100px 25px 0;
     text-align: center;
   }
 
   .cta-detail h2 {
-    font-size: 32px;
+    font-size: 26px;
   }
 
   .cta-detail p {
@@ -662,7 +662,7 @@ section {
 
   /* SERVICES */
   .services {
-    padding: 100px 40px 0;
+    padding: 100px 25px 0;
   }
 
   .services-label {
@@ -680,6 +680,9 @@ section {
   }
 
   /* PACKAGE */
+  .package{
+    padding: 100px 25px 0;
+  }
   .package-grid {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -691,9 +694,9 @@ section {
 
   /* REDESIGN / DEVELOPMENT */
 .redesign {
-    padding: 100px 40px 0;
+    padding: 100px 25px 0;
   }.development {
-    padding: 100px 40px 0;
+    padding: 100px 25px 0;
   }
   
   .redesign-grid,
@@ -715,7 +718,7 @@ section {
 
   /* FORMULARIO */
   .img-border {
-    padding: 100px 40px 0;
+    padding: 100px 25px 0;
   }
 
   .contact-form form {
@@ -732,6 +735,7 @@ section {
     margin: 5px 0;
   }
 }
+
 
 
 
