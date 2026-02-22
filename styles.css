@@ -676,6 +676,7 @@ transition: all 0.5s ease;
 
   /* CTA & END */
   .cta, .end { padding: 100px 25px 0; }
+   .cta{padding-bottom: 100px;}
   .cta-detail h2, .end-detail h2 { font-size: 28px; }
   .cta-detail p, .end-detail p { font-size: 15px; }
   .view-cta-1, .view-cta-2, .view-end-1 { width: 100%; margin: 10px 0; }
@@ -704,6 +705,7 @@ transition: all 0.5s ease;
   /* Footer */
   .footer a { display: block; margin: 5px 0; }
 }
+
 
 
 
