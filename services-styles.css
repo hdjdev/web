@@ -638,6 +638,13 @@ section {
     width: 100%;
     height: auto;
   }
+    .redesign-img {
+    padding-left: 0px;
+}
+
+.redesign-text {
+  padding-left: 0px;
+}
 
   /* FORMULARIO */
   .img-border {
@@ -773,6 +780,15 @@ section {
     height: auto;
   }
 
+    .redesign-img {
+    padding-left: 0px;
+}
+
+.redesign-text {
+  padding-left: 0px;
+}
+  
+
   /* FORMULARIO */
   .img-border {
     padding: 100px 25px 0;
@@ -792,6 +808,7 @@ section {
     margin: 5px 0;
   }
 }
+
 
 
 
