@@ -201,6 +201,13 @@ section {
   color: #555;
 }
 
+.service-detail ul{
+  list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+    color: #555;
+}
+
 /* ACCORDION */
 .service-list {
   display: flex;
@@ -785,6 +792,7 @@ section {
     margin: 5px 0;
   }
 }
+
 
 
 
