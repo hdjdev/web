@@ -139,6 +139,35 @@ section {
   color: whitesmoke;
 }
 
+/* ======================
+   CTA & END
+====================== */
+.cta-2{
+  padding: 120px 80px;
+  text-align: center;
+   background-image: url(CTA.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cta-2 {
+  margin-top: 125px;
+}
+
+.cta-detail-2 h2 {
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: whitesmoke;
+}
+
+.cta-detail-2 p{
+  font-size: 16px;
+  line-height: 1.7;
+  padding-top: 15px;
+  color: #676767;
+}
+
 /* SERVICES */
 .services {
   padding-top: 120px;
@@ -756,6 +785,7 @@ section {
     margin: 5px 0;
   }
 }
+
 
 
 
